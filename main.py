@@ -8,7 +8,7 @@ def validate_seed(file):
         # Checking seed
         contents = file_open.readlines()
         seed = contents.pop(0)[:-1] # Grabs the seed removes \n
-
+# test
         if len(seed) != 4:
             print("Invalid seed: Invalid seed length")
         else:
